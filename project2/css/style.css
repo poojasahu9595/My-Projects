@@ -23,6 +23,35 @@ header{
     -moz-box-shadow: 0 5px 15px -5px rgba(0,0,0,.4);
     box-shadow: 0 5px 15px -5px rgba(0,0,0,.4);
     }
+
+    .txt_one{
+        color:red;  
+        text-align: center;
+        
+        }
+        .txt_two{
+            color:red;  
+            text-align: center;
+          
+            }
+    
+            .txt_three{
+                color: red;
+                text-align: center;
+           
+                }
+    
+                .txt_four{
+                    color: red;
+                    text-align: center;
+                
+                    }
+    
+        .txt1{
+        color:red; 
+        font-size: 60px;
+        padding-bottom: 30px;
+        }
     .select{
     border: none;
     padding: 10px;
@@ -235,27 +264,14 @@ header{
     }
 
     footer div p{
-    padding: 5px
-    0px;
-    
+    padding: 5px 0px;
     color: red;
-    
-    
-    
     }
-    
-    
     
     footer div
     h4{
-    
     color: red;
-    
-    
-    
     }
-    
-    
     
     footer div
     button{
@@ -320,7 +336,53 @@ header{
     
     @media (max-width:
     576px) { 
+
+        body{
+            overflow-x:hidden;
+            margin: 0px;
+            }
     
+        .txt_one{
+            color:red;  
+            text-align: center;
+            position: absolute;
+            z-index: 395;
+            top: 66px;
+            left: 57px;
+            }
+            .txt_two{
+                color:red;  
+                text-align: center;
+                position: absolute;
+                z-index: 395;
+                top: 62px;
+                left: 57px;
+                }
+        
+                .txt_three{
+                    color: red;
+                    text-align: center;
+                    position: absolute;
+                    z-index: 395;
+                    top: 101px;
+                    left: 57px;
+                    }
+        
+                    .txt_four{
+                        color: red;
+                        text-align: center;
+                        position: absolute;
+                        z-index: 395;
+                        top: 101px;
+                        left: 57px;
+                        }
+        
+            .txt1{
+            color:red; 
+            font-size: 60px;
+            padding-bottom: 30px;
+            }
+
     footer{
     display: none;
     }
@@ -383,6 +445,9 @@ header{
     padding-bottom:10px;
     
     }
+    .carousel-indicators.indicartor1{
+        top:80px
+    } 
     }
     .carousel-indicators {
     position:absolute;
@@ -395,15 +460,7 @@ header{
     text-align: center;
     list-style: none;
     }
-    .txt{
-    color:red;  
-    text-align: center;
-    }
-    .txt1{
-    color:red; 
-    font-size: 60px;
-    padding-bottom: 30px;
-    }
+   
     .carousel-indicators {
     position: absolute;
     bottom: 10px;
@@ -454,6 +511,11 @@ header{
             z-index: 999;
         }
 
+        body{
+            overflow-x:hidden;
+            margin: 0px;
+            }
+
         .up{
             bottom: 78px
         }
@@ -492,6 +554,12 @@ header{
      width: 200px; 
     }
 
+    
+
+    .indicartor2.indicartor2{
+       
+        margin-top: 70px;
+    }
 
     .carousel-caption {    
         bottom: -71px;     
@@ -508,7 +576,10 @@ header{
     }
     
     
-    
+    .one{
+        /* position:absolute;
+        z-index: 999; */
+    }
     
 /*     
     .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
